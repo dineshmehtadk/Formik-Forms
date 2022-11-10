@@ -1,0 +1,40 @@
+
+
+
+.textField-error{
+    color: red;
+}
+
+.textField{
+    padding: 15px;
+}
+
+
+
+.textField-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+
+
+
+.textField-container > input{
+    
+    width: 250px; 
+    height: 25px;
+    margin-left: 50px;
+    padding-left: 30px;
+}
+
+
+.is-invalid{
+    border: 1px solid red;
+    border-radius: 2px;
+}
+
+.error-icon{
+    position: absolute;
+    left: 790px;
+    color: red
+}
